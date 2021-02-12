@@ -6,7 +6,8 @@
 }
 
 .wrapper{
-    padding: 40px 100px;
+    width:80%;
+    margin: auto;
 }
 
 .nav-bar{
@@ -21,15 +22,8 @@
 }
 
 .clearfix{
-    height:600px;
     background-color: #0186fb;
     margin-top: 20px;
-}
-
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .row{
@@ -38,34 +32,36 @@
 }
 
 .column{
-    margin-top:20px;
-    margin-bottom: 20px;
+    padding: 15px 0px;;
 }
-
+.column::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 .col_one{
-    height: 460px;
-    width: 200px;
-    background-color: mediumpurple;
+    height: 480px;
+    width: 20%;
+    background-color: #abcfe7;
     float: left;
-    
+    /* margin-bottom: 10px; */
 }
 
 .col_two{
-    height: 460px;
-    width: 463px;
-    background-color: mediumpurple;
+    height: 480px;
+    width: 58%;
+    background-color:#abcfe7;
     float: left;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0px 10px 0px 11px;
    
 }
 
 .col_three{
-    height: 460px;
-    width: 200px;
-    background-color: mediumpurple;
+    height: 480px;
+    width: 20%;
+    background-color:#abcfe7;
     float: left;
-    
+    /* margin-bottom: 10px; */
 }
 
 .footer-section{
