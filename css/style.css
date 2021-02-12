@@ -4,3 +4,68 @@
     padding: 0;
     box-sizing: border-box;
 }
+.wrapper{
+    height: 1900px;
+    background-color: blue;
+    padding: 20px 80px;
+}
+
+.nav-bar{
+    height: 100px;
+    background-color: pink;
+}
+
+.header-section{
+    height:400px;
+    background-color: burlywood;
+    margin-top: 20px;
+}
+
+.container{
+    height:600px;
+    background-color: lightseagreen;
+    margin-top: 20px;
+}
+
+.row{
+    height: 100px;
+    background-color: limegreen;
+}
+
+.column{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col_one{
+    height: 300px;
+    width: 200px;
+    background-color: mediumpurple;
+    float: left;
+    margin-top: 20px;
+}
+
+.col_two{
+    height: 300px;
+    width: 380px;
+    background-color: mediumpurple;
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.col_three{
+    height: 300px;
+    width: 200px;
+    background-color: mediumpurple;
+    float: left;
+    margin-top: 20px;
+}
+
+.footer-section{
+    height: 100px;
+    background-color: orange;
+    margin-top: 10px;
+}
