@@ -4,68 +4,71 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* wrapper */
 .wrapper{
     width:80%;
     margin: auto;
+    padding: 10px 0;
 }
-
+/* header section */
+/* nav */
 .nav-bar{
     height: 100px;
     background-color: #e579e6;
 }
-
+/* header */
 .header-section{
     height:400px;
     background-color: #e1d67a;
     margin-top: 20px;
 }
+/* header section end */
 
+/* main */
+
+/* clearfix */
 .clearfix{
     background-color: #0186fb;
     margin-top: 20px;
 }
-
-.row{
-    height: 100px;
-    background-color: #abcfe7;
-}
-
-.column{
-    padding: 15px 0px;;
-}
-.column::after{
+.clearfix:after{
     content: "";
     display: table;
     clear: both;
 }
-.col_one{
-    height: 480px;
-    width: 20%;
+/* row main */
+.row{
+    height: 100px;
     background-color: #abcfe7;
+    margin-bottom: 10px;
+}
+/* column main */
+.col{
     float: left;
-    /* margin-bottom: 10px; */
+    background-color: #abcfe7;
+    margin-bottom: 10px;
+    height: 500px;
+}
+/* column setting */
+.col_one{
+    width: 20%;
+    
 }
 
 .col_two{
-    height: 480px;
-    width: 58%;
-    background-color:#abcfe7;
-    float: left;
-    margin: 0px 10px 0px 11px;
-   
+    width: 56%;
+    margin-left:2%;
+    margin-right:2%;
 }
 
 .col_three{
-    height: 480px;
     width: 20%;
-    background-color:#abcfe7;
-    float: left;
-    /* margin-bottom: 10px; */
 }
+/* column main and settings end */
 
+/* footer */
 .footer-section{
-    height: 100px;
+    height: 50px;
     background-color: #8801fe;
     margin-top: 10px;
 }
